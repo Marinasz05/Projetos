@@ -1,0 +1,14 @@
+# Constantes com as cotações de hoje
+EURO = 5.64
+DOLAR = 6.35
+
+print('*' * 30)
+print('Digite o valor em Real R$ para converter:')
+real = float(input())
+print('*' * 30)
+
+em_euro = real / EURO
+em_dolar = real / DOLAR
+
+print(f'R$ {real} são {em_euro:.2f} euros.')
+print(f'R$ {real} são {em_dolar} dolares.')
